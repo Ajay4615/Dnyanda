@@ -7,12 +7,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function Split() {
     const images = [
-        '/images/campus1.jpg',
-        '/images/campus2.jpg',
-        '/images/campus3.jpg',
-        '/images/campus4.jpg',
-        '/images/campus5.jpg',
-        '/images/campus6.jpg',
+        '/images/campus1.jpeg',
+        '/images/campus2.jpeg',
+        '/images/campus3.jpeg',
+        '/images/campus4.jpeg',
+        '/images/campus5.jpeg',
+        '/images/campus6.jpeg',
         // Add more image URLs as needed
       ];
 

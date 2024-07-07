@@ -5,7 +5,7 @@ function Sector() {
     <>
       <div className="">
         <img
-          src="/images/flower.jpg"
+          src="/images/flower.jpeg"
           alt="flower"
           className="h-30vh md:h-80vh w-full opacity-40 rounded-xl"
         />
@@ -30,14 +30,14 @@ function Sector() {
           <div className="flex-col  md:w-1/2">
             <div className="md:p-10 p-3 text-center">
               <img
-                src="/images/news1.jpg"
+                src="/images/news1.jpeg"
                 alt="image  "
                 className="border border-x-4 border-y-4 border-black"
               />
             </div>
             <div className="md:p-10 p-3 ">
               <img
-                src="/images/news2.jpg"
+                src="/images/news2.jpeg"
                 alt="image  "
                 className="border w-fit border-x-4 border-y-4 border-black"
               />
@@ -46,14 +46,14 @@ function Sector() {
           <div className="flex-col md:w-1/2">
             <div className="md:p-10 p-3 ">
               <img
-                src="/images/news3.jpg"
+                src="/images/news3.jpeg"
                 alt="image  "
                 className="border border-x-4 border-y-4 border-black"
               />
             </div>
             <div className="md:p-10 p-3 ">
               <img
-                src="/images/news4.jpg"
+                src="/images/news4.jpeg"
                 alt="image  "
                 className="border border-x-4 border-y-4 border-black"
               />

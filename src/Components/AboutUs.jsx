@@ -8,21 +8,21 @@ function AboutUs() {
         <div className=" flex gap-6 w-full md:w-2/3 py-20">
           <div className=" flex items-center justify-center w-2/3 ">
             <img
-              src="/images/left.jpg"
+              src="/images/left.jpeg"
               alt="image"
               className=" rotate-[-20deg] h-full z-10 border-4 border-red-600 "
             />
           </div>
           <div className="flex items-center w-2/3">
             <img
-              src="/images/middle.jpg"
+              src="/images/middle.jpeg"
               alt="image"
               className=" h-full  z-20  border-4 border-red-600"
             />
           </div>
           <div className=" flex items-center w-2/3">
             <img
-              src="/images/right.jpg"
+              src="/images/right.jpeg"
               alt="image"
               className=" rotate-[20deg] lg:h-full h-full  z-10 border-4 border-red-600 "
             />
@@ -45,7 +45,7 @@ function AboutUs() {
       <div className="w-screen  bg-orange-500 mt-5">
         <div className="flex ">
           <div className=" px-4 md:px-10 w-1/2 flex justify-center items-center">
-            <img src="./images/aboutpage.jpg" alt="" className="w-fit h-2/3 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}/>
+            <img src="./images/aboutpage.jpeg" alt="" className="w-fit h-2/3 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}/>
           </div>
           <div className=" flex items-center justify-center">
             <div className="text-black p-4 md:p-10  text-xl md:text-3xl flex items-center justify-center">  
