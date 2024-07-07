@@ -11,7 +11,7 @@ function Hero() {
       <div className="flex-col bg-yellow-300 rounded-xl ">
         <div className="">
           <img
-            src={"./images/background.jpeg"}
+            src={"/images/background.jpeg"}
             alt="My Image"
             className="bg-yellow-500 opacity-65 xl:h-screen lg:w-screen lg:object-cover "
           />
