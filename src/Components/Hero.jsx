@@ -96,7 +96,8 @@ function Hero() {
       <div className="  sm:w-1/8 lg:w-2/3 w-full ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-4">
       <div className="bg-yellow-200 rounded-lg  overflow-hidden p-2 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
-            <img className="w-full h-48 object-cover rounded-xl" src={"/images/about.jpeg"}/> src={"/images/background.jpeg"}
+            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/about.jpeg"/>  */}
+            <img className="w-full h-48 object-cover rounded-xl" src="/images/campus1.jpg"/> 
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2 text-center">About</h2>
               <ul className="list-disc list-inside space-y-1">
@@ -108,7 +109,9 @@ function Hero() {
             <button className="w-full"><CiCircleChevLeft className="w-full h-14 "/></button>
           </div>
           <div className="bg-yellow-200 rounded-lg shadow-lg overflow-hidden p-2" style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
-            <img className="w-full h-48 object-cover rounded-xl" src="/images/courses.jpeg"/>
+            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/courses.jpeg"/> */
+             <img className="w-full h-48 object-cover rounded-xl" src="/images/campus2.jpg"/>
+            }
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2 text-center">Courses</h2>
               <ul className="list-disc list-inside space-y-1">
