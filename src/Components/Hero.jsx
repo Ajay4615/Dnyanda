@@ -11,7 +11,7 @@ function Hero() {
       <div className="flex-col bg-yellow-300 rounded-xl ">
         <div className="">
           <img
-            src={"/images/background.jpeg"}
+            src={"/images/background.jpg"}
             alt="My Image"
             className="bg-yellow-500 opacity-65 xl:h-screen lg:w-screen lg:object-cover "
           />
@@ -57,14 +57,14 @@ function Hero() {
         {/* <div className="flex justify-center items-center w-full flex-wrap">
           <div className="px-10  py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
             <img
-              src="./images/background.jpeg"
+              src="./images/background.jpg"
               alt="left side image"
               className="rounded-tl-3xl rounded-br-3xl w-full"
             />
           </div>
           <div className="px-10 py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
             <img
-              src="./images/background.jpeg"
+              src="./images/background.jpg"
               alt="right side image"
               className="rounded-tl-3xl rounded-br-3xl w-full"
             />
@@ -84,7 +84,7 @@ function Hero() {
         </div>
           <div className="w-full ">
           <div className="bg-white w-full h-30vh sm:h-50vh  items-center  flex justify-center">
-            <img src="/images/logo.jpeg" alt="" className="w-fit object-center h-40 sm:h-80" />
+            <img src="/images/logo.jpg" alt="" className="w-fit object-center h-40 sm:h-80" />
           </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ function Hero() {
       <div className="  sm:w-1/8 lg:w-2/3 w-full ">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-4">
       <div className="bg-yellow-200 rounded-lg  overflow-hidden p-2 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
-            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/about.jpeg"/>  */}
+            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/about.jpg"/>  */}
             <img className="w-full h-48 object-cover rounded-xl" src="/images/campus1.jpg"/> 
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2 text-center">About</h2>
@@ -109,7 +109,7 @@ function Hero() {
             <button className="w-full"><CiCircleChevLeft className="w-full h-14 "/></button>
           </div>
           <div className="bg-yellow-200 rounded-lg shadow-lg overflow-hidden p-2" style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
-            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/courses.jpeg"/> */
+            {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/courses.jpg"/> */
              <img className="w-full h-48 object-cover rounded-xl" src="/images/campus2.jpg"/>
             }
             <div className="p-4">
@@ -129,7 +129,7 @@ function Hero() {
             <button className="w-full"><CiCircleChevLeft className="w-full h-14 "/></button>
           </div>
           <div className="bg-yellow-200 rounded-lg shadow-lg overflow-hidden p-2" style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
-            <img className="w-full h-48 object-cover rounded-xl" src="/images/admission.jpeg"/>
+            <img className="w-full h-48 object-cover rounded-xl" src="/images/admission.jpg"/>
             <div className="p-4">
               <h2 className="text-xl font-semibold mb-2 text-center">Admission</h2>
               <ul className="list-disc list-inside space-y-1">
@@ -162,14 +162,14 @@ function Hero() {
       <div className="flex justify-center items-center w-full flex-wrap">
           <div className="px-10  py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
             <img
-              src="./images/background.jpeg"
+              src="./images/background.jpg"
               alt="left side image"
               className="rounded-tl-3xl rounded-br-3xl w-full"
             />
           </div>
           <div className="px-10 py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
             <img
-              src="./images/background.jpeg"
+              src="./images/background.jpg"
               alt="right side image"
               className="rounded-tl-3xl rounded-br-3xl w-full"
             />

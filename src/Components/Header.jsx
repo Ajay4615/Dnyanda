@@ -31,7 +31,7 @@ function Header() {
       <div className="flex h-20 md:h-24   mb-3" >
         <div className=" flex justify-center logo ">
           <img
-            src={"./images/logo.jpeg"}
+            src={"./images/logo.jpg"}
             alt="My Image"
             className="md:w-28 w-20 md:h-22 h-18 ms-10 lg:ms-20 bg-t "
           />
