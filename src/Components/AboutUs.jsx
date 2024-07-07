@@ -8,21 +8,21 @@ function AboutUs() {
         <div className=" flex gap-6 w-full md:w-2/3 py-20">
           <div className=" flex items-center justify-center w-2/3 ">
             <img
-              src="./images/left.jpg"
+              src="/images/left.jpg"
               alt="image"
               className=" rotate-[-20deg] h-full z-10 border-4 border-red-600 "
             />
           </div>
           <div className="flex items-center w-2/3">
             <img
-              src="./images/middle.jpg"
+              src="/images/middle.jpg"
               alt="image"
               className=" h-full  z-20  border-4 border-red-600"
             />
           </div>
           <div className=" flex items-center w-2/3">
             <img
-              src="./images/right.jpg"
+              src="/images/right.jpg"
               alt="image"
               className=" rotate-[20deg] lg:h-full h-full  z-10 border-4 border-red-600 "
             />

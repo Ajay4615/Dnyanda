@@ -5,12 +5,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 function Philosopy() {
     const images = [
-        './images/philo.jpg',
-        './images/philo1.jpg',
-        './images/philo2.jpg',
-        './images/philo3.jpg',
-        './images/philo4.jpg',
-        './images/philo5.jpg',
+        '/images/philo.jpg',
+        '/images/philo1.jpg',
+        '/images/philo2.jpg',
+        '/images/philo3.jpg',
+        '/images/philo4.jpg',
+        '/images/philo5.jpg',
         // Add more image URLs as needed
       ];
 
