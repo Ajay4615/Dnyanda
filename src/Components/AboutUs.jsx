@@ -8,7 +8,8 @@ function AboutUs() {
         <div className=" flex gap-6 w-full md:w-2/3 py-20">
           <div className=" flex items-center justify-center w-2/3 ">
             <img
-              src="/images/left.jpeg"
+              // src="/images/left.jpeg"
+               src="/images/campus3.jpg"
               alt="image"
               className=" rotate-[-20deg] h-full z-10 border-4 border-red-600 "
             />
