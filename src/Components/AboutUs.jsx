@@ -1,65 +1,88 @@
 import React from "react";
 
-
 function AboutUs() {
   return (
-    <>
-      <div className="w-full flex justify-center items-center mt-3 md:mt-10">
-        <div className=" flex gap-6 w-full md:w-2/3 py-20">
-          <div className=" flex items-center justify-center w-2/3 ">
-            <img
-              // src="/images/left.jpg"
-               src="/images/campus3.jpg"
-              alt="image"
-              className=" rotate-[-20deg] h-full z-10 border-4 border-red-600 "
-            />
+    <div className="bg-gray-100">
+      {/* Hero Section */}
+      <section className="relative py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center">
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
+              <span className="block">आस्था समर्थानाम्</span>
+              <span className="block text-orange-600 font-cursive text-5xl">
+                परिचयः
+              </span>
+            </h2>
           </div>
-          <div className="flex items-center w-2/3">
-            <img
-              src="/images/middle.jpg"
-              alt="image"
-              className=" h-full  z-20  border-4 border-red-600"
-            />
-          </div>
-          <div className=" flex items-center w-2/3">
-            <img
-              src="/images/right.jpg"
-              alt="image"
-              className=" rotate-[20deg] lg:h-full h-full  z-10 border-4 border-red-600 "
-            />
-          </div>
-        </div>
-      </div>
-
-      <div className="text-center">
-        <p className="text-xl">
-          <b>Know Us Better </b>
-        </p>
-        <p
-          className="text-orange-600 text-3xl "
-          style={{ fontFamily: "cursive" }}
-        >
-          <b>About</b>
-        </p>
-      </div>
-
-      <div className="w-screen  bg-orange-500 mt-5">
-        <div className="flex ">
-          <div className=" px-4 md:px-10 w-1/2 flex justify-center items-center">
-            <img src="./images/aboutpage.jpg" alt="" className="w-fit h-2/3 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}/>
-          </div>
-          <div className=" flex items-center justify-center">
-            <div className="text-black p-4 md:p-10  text-xl md:text-3xl flex items-center justify-center">  
-           <p className="md:leading-loose"> प्रा.गोरक्षनाथ बाबासाहेब उदागे <br />संचलित<br />ज्ञानदा संस्कृत प्रबोधिनी<br />शाखा - पुणे,नगर<br />स्थापना - 1/4/2013</p>
+          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-6">
+            {/* Left Image */}
+            <div className="flex justify-center">
+              <img
+                src="/images/campus3.jpg"
+                alt="Campus"
+                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
+              />
+            </div>
+            {/* Middle Image */}
+            <div className="flex justify-center">
+              <img
+                src="/images/middle.jpg"
+                alt="Middle"
+                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
+              />
+            </div>
+            {/* Right Image */}
+            <div className="flex justify-center">
+              <img
+                src="/images/right.jpg"
+                alt="Right"
+                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
+              />
             </div>
           </div>
         </div>
+      </section>
 
-        <div className="pb-60">
-          <p className="text-white px-10 md:px-32 text-lg md:text-2xl">Our journey began in 2013 .....</p>
+      {/* Content Section */}
+      <section className="py-16 bg-orange-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Image */}
+            <div className="flex justify-center items-center">
+              <img
+                src="/images/aboutpage.jpg"
+                alt="About Page"
+                className="rounded-lg shadow-lg max-w-full"
+              />
+            </div>
+            {/* Text */}
+            <div className="flex flex-col justify-center">
+              <div className="text-center md:text-left">
+                <h3 className="text-3xl font-extrabold text-white tracking-wide mb-4">
+                  अपना सफर
+                </h3>
+                <p className="text-white text-lg leading-relaxed">
+                  प्रा.गोरक्षनाथ बाबासाहेब उदागे <br />
+                  संचलित<br />
+                  ज्ञानदा संस्कृत प्रबोधिनी<br />
+                  शाखा - पुणे, नगर<br />
+                  स्थापना - 1/4/2013
+                </p>
+              </div>
+              <div className="mt-8 text-center md:text-left">
+                <p className="text-white text-lg leading-relaxed">
+                  ज्ञानदा संस्कृत प्रबोधिनी, एक प्रेरणा और समृद्धि का केंद्र,
+                  जहाँ समग्र विकास के लिए विद्यार्थियों का उत्थान किया जाता
+                  है। हमारा लक्ष्य है कि विद्यार्थी न केवल अकादमिक बल्कि
+                  आध्यात्मिक और सांस्कृतिक दृष्टिकोण में भी उत्कृष्टता प्राप्त
+                  करें।
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </>
+      </section>
+    </div>
   );
 }
 
