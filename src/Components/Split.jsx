@@ -20,7 +20,7 @@ function Split() {
 
       useEffect(() => {
         const handleResize = () => {
-          if (window.innerWidth < 700) {
+          if (window.innerWidth < 1034) {
             setSlidesToShow(1);
           } else {
             setSlidesToShow(2);
@@ -43,14 +43,15 @@ function Split() {
         autoplay: true,
         speed: 500,
         slidesToShow: slidesToShow,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        arrows : false
       };
       return (
-        <div className="p-4" >
+        <div className="" >
           <Slider {...settings}>
             {images.map((image, index) => (
-              <div key={index} className={`p-10`}>
-                <img src={image} alt={`Image ${index + 1}`} className="w-full h-50vh rounded-tl-3xl rounded-br-3xl " />
+              <div key={index} className={`py-8 px-3 md:py-2 md:px-10 h-96  `}>
+                <img src={image} alt={`Image ${index + 1}`} className="object-cover h-full w-full  rounded-tl-3xl rounded-br-3xl" />
               </div>
             ))}
           </Slider>

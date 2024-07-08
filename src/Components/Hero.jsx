@@ -16,8 +16,8 @@ function Hero() {
             className="bg-yellow-500 opacity-65 xl:h-screen lg:w-screen lg:object-cover "
           />
 
-          <div className="absolute inset-0 flex items-center justify-center h-40vh sm:h-70vh md:90vh lg:h-screen mt-20 name">
-            <p className="text-black text-3xl md:text-6xl lg:text-8xl font-bold opacity-80 underline">
+          <div className="absolute inset-0 flex items-center justify-center h-80 sm:h-70vh lg:h-screen mt-20 name">
+            <p className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold opacity-80 underline">
               ज्ञानदा संस्कृत प्रबोधिनी
             </p>
           </div>
@@ -83,8 +83,8 @@ function Hero() {
           </p>
         </div>
           <div className="w-full ">
-          <div className="bg-white w-full h-30vh sm:h-50vh  items-center  flex justify-center">
-            <img src="/images/logo.jpg" alt="" className="w-fit object-center h-40 sm:h-80" />
+          <div className="bg-white w-full h-44 sm:h-96  items-center  flex justify-center">
+            <img src="/images/logo.jpg" alt="" className="w-fit h-40 sm:h-80" />
           </div>
           </div>
         </div>
@@ -93,8 +93,8 @@ function Hero() {
 
       
       <div className="  w-full flex justify-center mt-20">
-      <div className="  sm:w-1/8 lg:w-2/3 w-full ">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-4">
+      <div className="  lg:w-3/4 w-full ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 px-16 md:p-4 ">
       <div className="bg-yellow-200 rounded-lg  overflow-hidden p-2 " style={{boxShadow: '10px 10px 10px rgba(0, 0, 0, 0.5)'}}>
             {/* <img className="w-full h-48 object-cover rounded-xl" src="/images/about.jpg"/>  */}
             <img className="w-full h-48 object-cover rounded-xl" src="/images/campus1.jpg"/> 
