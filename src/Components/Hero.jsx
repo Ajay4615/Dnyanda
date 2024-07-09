@@ -13,20 +13,20 @@ function Hero() {
           <img
             src={"/images/background.jpeg"}
             alt="My Image"
-            className="bg-yellow-500 opacity-65 xl:h-screen lg:w-screen lg:object-cover "
+            className="bg-yellow-500 opacity-65 xl:h-screen lg:w-full lg:object-cover "
           />
 
-          <div className="absolute inset-0 flex items-center justify-center h-80 sm:h-70vh lg:h-screen mt-20 name">
-            <p className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold opacity-80 underline">
+          <div className="absolute inset-0 flex items-center justify-center h-60 sm:h-70 lg:h-5/6 md:h-5/6 xl:h-90vh mt-20 name">
+            <p className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold opacity-80 underline text-center">
               ज्ञानदा संस्कृत प्रबोधिनी
             </p>
           </div>
         </div>
         <div className=" flex justify-center items-center bg-yellow-300 py-6">
-          <div className="w-screen md:w-1/2 p-2">
+          <div className="w-screen md:w-2/3 p-2">
             <p
-              className="text-black  md:text-lg text-base font-mono"
-              style={{ fontFamily: "cursive" }}
+              className="text-black  md:text-xl text-base font-mono"
+              style={{ fontFamily: "monospace" }}
             >
               We pride ourselves on providing a supportive and immersive
               learning environment. Our experienced instructors, comprehensive
@@ -39,8 +39,8 @@ function Hero() {
         </div>
       </div>
 
-      <div className="mt-3 mb-7">
-        <div>
+      <div className="mt-12 flex-col justify-center items-center mb-4">
+        <div className="mb-3 md:mb-12">
           <b>
             <p className="text-center text-2xl w-full md:w-auto">
               Take a Tour of
@@ -52,39 +52,41 @@ function Hero() {
               Our Campus!
             </p>
           </b>
+
         </div>
         <Split/>
+
         {/* <div className="flex justify-center items-center w-full flex-wrap">
           <div className="px-10  py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-            <img
-              src="./images/background.jpg"
-              alt="left side image"
-              className="rounded-tl-3xl rounded-br-3xl w-full"
-            />
+          <img
+          src="./images/background.jpg"
+          alt="left side image"
+          className="rounded-tl-3xl rounded-br-3xl w-full"
+          />
           </div>
           <div className="px-10 py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-            <img
-              src="./images/background.jpg"
-              alt="right side image"
-              className="rounded-tl-3xl rounded-br-3xl w-full"
-            />
+          <img
+          src="./images/background.jpg"
+          alt="right side image"
+          className="rounded-tl-3xl rounded-br-3xl w-full"
+          />
           </div>
           <p className="text-wrap text-sm md:text-auto">
-            Deccan College (Dictionary Kosh ),Pune
+          Deccan College (Dictionary Kosh ),Pune
           </p>
-        </div> */}
+          </div> */}
       </div>
 
-      <div className="bg-yellow-500 w-full flex justify-center items-center h-50vh sm:h-80vh rounded-lg">
-        <div className="flex-col items-center justify-center text-center w-1/2 ">
-        <div className="pb-7">
-          <p className="text-black text-xl  md:text-2xl lg:text-3xl font-bold w-full h-10vh ">
+      <div className="bg-yellow-500 w-full flex justify-center items-center h-full rounded-lg mt-24">
+        <div className="flex-col items-center justify-center text-center w-2/3 md:w-1/2 pb-16">
+        <div className="py-5">
+          <p className="text-black text-xl  md:text-2xl lg:text-3xl font-bold w-full h-10 md:h-24  ">
             The <span className="text-white text-3xl sm:text-4xl lg:text-6xl" style={{fontFamily:"cursive"}}>Dnayanada</span> Vision
           </p>
         </div>
           <div className="w-full ">
-          <div className="bg-white w-full h-44 sm:h-96  items-center  flex justify-center">
-            <img src="/images/logo.jpg" alt="" className="w-fit h-40 sm:h-80" />
+          <div className="bg-white w-full h-44 sm:h-80  items-center  flex justify-center">
+            <img src="/images/logo.jpg" alt="" className="w-fit h-40 sm:h-72" />
           </div>
           </div>
         </div>
@@ -149,7 +151,7 @@ function Hero() {
     </div>
     <div className=" mt-12 flex-col justify-center items-center mb-4">
     <div className="pb-7 text-center">
-          <p className="text-black text-xl  md:text-2xl lg:text-3xl font-bold w-full h-10vh ">
+          <p className="text-black text-xl  md:text-2xl lg:text-3xl font-bold w-full max-h-32 ">
             The <span className="text-orange-500 text-3xl sm:text-4xl lg:text-6xl" style={{fontFamily:"cursive"}}>Dnayanada</span> Philosopy
           </p>
         </div>

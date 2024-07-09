@@ -2,21 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@media(max-width :611px){
-    .hid{
-        display: block;
-    }
+@media(max-width :640px){
     .hidd{
         display: none;
-    }
-    .logo{
-        width:20vh;
-    }
-    .sym{
-        width: 50vh;
-    }
-    .name{
-        height: 30vh;
     }
 }
 

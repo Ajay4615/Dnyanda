@@ -1,7 +1,6 @@
 
 import React, { useState ,useEffect} from 'react';
 import Slider from 'react-slick';
-import show from './Show'
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -12,7 +11,7 @@ function Split() {
         '/images/campus3.jpg',
         '/images/campus4.jpg',
         '/images/campus5.jpg',
-        '/images/campus6.jpg',
+        '/images/philo5.jpg',
         // Add more image URLs as needed
       ];
 
@@ -20,7 +19,7 @@ function Split() {
 
       useEffect(() => {
         const handleResize = () => {
-          if (window.innerWidth < 1034) {
+          if (window.innerWidth < 700) {
             setSlidesToShow(1);
           } else {
             setSlidesToShow(2);
@@ -44,13 +43,12 @@ function Split() {
         speed: 500,
         slidesToShow: slidesToShow,
         slidesToScroll: 1,
-        arrows : false
       };
       return (
-        <div className="" >
+        <div className="p-4" >
           <Slider {...settings}>
             {images.map((image, index) => (
-              <div key={index} className={`py-8 px-3 md:py-2 md:px-10 h-96  `}>
+              <div key={index} className={`py-8 px-3 md:py-2 md:px-10 h-96   `}>
                 <img src={image} alt={`Image ${index + 1}`} className="object-cover h-full w-full  rounded-tl-3xl rounded-br-3xl" />
               </div>
             ))}

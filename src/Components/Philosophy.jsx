@@ -38,6 +38,7 @@ function Philosopy() {
       const settings = {
         dots: true,
         infinite: true,
+        autoplay:true,
         speed: 500,
         slidesToShow: slidesToShow,
         slidesToScroll: 1
