@@ -45,15 +45,16 @@ function Split() {
         slidesToScroll: 1,
       };
       return (
-        <div className="p-4" >
-          <Slider {...settings}>
-            {images.map((image, index) => (
-              <div key={index} className={`py-8 px-3 md:py-2 md:px-10 h-96   `}>
-                <img src={image} alt={`Image ${index + 1}`} className="object-cover h-full w-full  rounded-tl-3xl rounded-br-3xl" />
-              </div>
-            ))}
-          </Slider>
-        </div>
+        <div className="p-4">
+        <Slider {...settings}>
+          {images.map((image, index) => (
+            <div key={index} className="py-4 px-2 md:py-6 md:px-8 lg:py-8 lg:px-10 h-60 sm:h-80 md:h-96 lg:h-128">
+              <img src={image} alt={`Image ${index + 1}`} className="object-cover h-full w-full rounded-tl-3xl rounded-br-3xl" />
+            </div>
+          ))}
+        </Slider>
+        
+      </div>
       );
     };
 

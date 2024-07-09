@@ -8,20 +8,22 @@ function Hero() {
   
   return (
     <>
-      <div className="flex-col bg-yellow-300 rounded-xl ">
-        <div className="">
-          <img
-            src={"/images/background.jpeg"}
-            alt="My Image"
-            className="bg-yellow-500 opacity-65 xl:h-screen lg:w-full lg:object-cover "
-          />
-
-          <div className="absolute inset-0 flex items-center justify-center h-60 sm:h-70 lg:h-5/6 md:h-5/6 xl:h-90vh mt-20 name">
-            <p className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold opacity-80 underline text-center">
-              ज्ञानदा संस्कृत प्रबोधिनी
+      <div className="flex flex-wrap">
+      <div className="w-full ">
+        <div className="relative h-40vh md:h-screen flex items-center justify-center bg-yellow-500">
+          <div 
+            className="absolute inset-0 bg-cover bg-center opacity-60"
+            style={{ backgroundImage: "url('/images/background.jpeg')" }}
+          ></div>
+          <div className="relative p-4">
+            <p className="text-black text-4xl sm:text-5xl md:text-6xl lg:text-8xl underline text-center">
+              <b>ज्ञानदा संस्कृत प्रबोधिनी</b>
             </p>
           </div>
         </div>
+      </div>
+     
+    </div>
         <div className=" flex justify-center items-center bg-yellow-300 py-6">
           <div className="w-screen md:w-2/3 p-2">
             <p
@@ -37,7 +39,7 @@ function Hero() {
             </p>
           </div>
         </div>
-      </div>
+      {/* </div> */}
 
       <div className="mt-12 flex-col justify-center items-center mb-4">
         <div className="mb-3 md:mb-12">
@@ -55,42 +57,22 @@ function Hero() {
 
         </div>
         <Split/>
-
-        {/* <div className="flex justify-center items-center w-full flex-wrap">
-          <div className="px-10  py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-          <img
-          src="./images/background.jpg"
-          alt="left side image"
-          className="rounded-tl-3xl rounded-br-3xl w-full"
-          />
-          </div>
-          <div className="px-10 py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-          <img
-          src="./images/background.jpg"
-          alt="right side image"
-          className="rounded-tl-3xl rounded-br-3xl w-full"
-          />
-          </div>
-          <p className="text-wrap text-sm md:text-auto">
-          Deccan College (Dictionary Kosh ),Pune
-          </p>
-          </div> */}
       </div>
 
       <div className="bg-yellow-500 w-full flex justify-center items-center h-full rounded-lg mt-24">
-        <div className="flex-col items-center justify-center text-center w-2/3 md:w-1/2 pb-16">
+      <div className="flex flex-col items-center justify-center text-center w-11/12 md:w-2/3 lg:w-1/2 pb-16">
         <div className="py-5">
-          <p className="text-black text-xl  md:text-2xl lg:text-3xl font-bold w-full h-10 md:h-24  ">
-            The <span className="text-white text-3xl sm:text-4xl lg:text-6xl" style={{fontFamily:"cursive"}}>Dnayanada</span> Vision
+          <p className="text-black text-xl md:text-2xl lg:text-3xl font-bold w-full">
+            The <span className="text-white text-3xl sm:text-4xl lg:text-6xl" style={{ fontFamily: "cursive" }}>Dnayanada</span> Vision
           </p>
         </div>
-          <div className="w-full ">
-          <div className="bg-white w-full h-44 sm:h-80  items-center  flex justify-center">
-            <img src="/images/logo.jpg" alt="" className="w-fit h-40 sm:h-72" />
-          </div>
+        <div className="w-full">
+          <div className="bg-white w-full h-44 sm:h-80 flex items-center justify-center rounded-lg">
+            <img src="/images/logo.jpg" alt="Dnayanada Logo" className="max-w-full max-h-full sm:h-72" />
           </div>
         </div>
       </div>
+    </div>
 
 
       
@@ -160,24 +142,7 @@ function Hero() {
         </p>
       </div>
     <Philosopy/>
-      {/* <div>
-      <div className="flex justify-center items-center w-full flex-wrap">
-          <div className="px-10  py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-            <img
-              src="./images/background.jpg"
-              alt="left side image"
-              className="rounded-tl-3xl rounded-br-3xl w-full"
-            />
-          </div>
-          <div className="px-10 py-5 md:p-11 xl:px-20 w-full md:w-1/2 ">
-            <img
-              src="./images/background.jpg"
-              alt="right side image"
-              className="rounded-tl-3xl rounded-br-3xl w-full"
-            />
-          </div>
-        </div>
-      </div> */}
+      
     </div>
 
     

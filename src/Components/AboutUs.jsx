@@ -5,43 +5,44 @@ function AboutUs() {
     <div className="bg-gray-100">
       {/* Hero Section */}
       <section className="relative py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
-              <span className="block">आस्था समर्थानाम्</span>
-              <span className="block text-orange-600 font-cursive text-5xl">
-                परिचयः
-              </span>
-            </h2>
-          </div>
-          <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-6">
-            {/* Left Image */}
-            <div className="flex justify-center">
-              <img
-                src="/images/campus3.jpg"
-                alt="Campus"
-                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
-              />
-            </div>
-            {/* Middle Image */}
-            <div className="flex justify-center">
-              <img
-                src="/images/middle.jpg"
-                alt="Middle"
-                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
-              />
-            </div>
-            {/* Right Image */}
-            <div className="flex justify-center">
-              <img
-                src="/images/right.jpg"
-                alt="Right"
-                className="rounded-lg shadow-lg max-h-80 md:max-h-full"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center">
+      <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl md:text-5xl">
+        <span className="block">आस्था समर्थानाम्</span>
+        <span className="block text-orange-600 font-cursive text-5xl">
+          परिचयः
+        </span>
+      </h2>
+    </div>
+    <div className="mt-12 grid grid-cols-1 gap-8 sm:grid-cols-3 md:gap-6">
+      {/* Left Image */}
+      <div className="flex justify-center transform md:-rotate-6  sm:border-4 border-red-500 ">
+        <img
+          src="/images/left.jpg"
+          alt="Campus"
+          className=" shadow-lg max-h-80 md:max-h-full"
+        />
+      </div>
+      {/* Middle Image */}
+      <div className="flex justify-center sm:border-4 border-black">
+        <img
+          src="/images/middle.jpg"
+          alt="Middle"
+          className="rounded-lg shadow-lg max-h-80 md:max-h-full"
+        />
+      </div>
+      {/* Right Image */}
+      <div className="flex justify-center transform md:rotate-6 sm:border-4 border-red-500">
+        <img
+          src="/images/right.jpg"
+          alt="Right"
+          className=" shadow-lg max-h-80 md:max-h-full"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Content Section */}
       <section className="py-16 bg-orange-500">
@@ -52,7 +53,7 @@ function AboutUs() {
               <img
                 src="/images/aboutpage.jpg"
                 alt="About Page"
-                className="rounded-lg shadow-lg max-w-full"
+                className=" shadow-lg max-w-full"
               />
             </div>
             {/* Text */}
