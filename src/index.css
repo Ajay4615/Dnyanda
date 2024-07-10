@@ -2,30 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@media(max-width :640px){
-    .hidd{
-        display: none;
-    }
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
-
-/* src/components/ImageSlider.css */
-.fullscreen {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+@media (max-width: 640px) {
+  .hidd {
+    display: none;
   }
-  
-  .fullscreen img {
-    max-width: 100%;
-    max-height: 100%;
-    cursor: pointer;
-  }
-  
+}
