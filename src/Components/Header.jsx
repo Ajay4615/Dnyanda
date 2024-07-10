@@ -30,15 +30,16 @@ function Header() {
   return (
     <header className="py-2 bg-white shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        <div className="flex items-center justify-center gap-10 w-full">
-          <div className="h-16 md:h-20 md:w-20 w-1/2">
+        <div className="flex items-center justify-between w-full">
+          <div className="flex-shrink-0 h-16 md:h-20 md:w-20 w-1/2">
             <img
               src={"./images/logo.jpg"}
               alt="Logo"
               className="object-cover w-16 md:w-full h-full rounded"
             />
           </div>
-          <nav className="hidden md:flex ml-6 space-x-6 lg:space-x-11 text-lg lg:text-2xl">
+          {/* Desktop Navigation */}
+          <nav className="hidden md:flex ml-6 space-x-6 lg:space-x-11 text-lg lg:text-xl">
             {navLinks.map((navLink) => (
               <NavLink
                 key={navLink.to}
@@ -51,14 +52,16 @@ function Header() {
               </NavLink>
             ))}
           </nav>
-          <div className="lg:ms-10 max-w-52">
-            <button onClick={handleButtonClick}>
-              <FiAlignJustify className="h-12 w-12 text-black" />
+          {/* Mobile Menu Button */}
+          <div className="md:hidden flex items-center">
+            <button onClick={handleButtonClick} className="focus:outline-none">
+              <FiAlignJustify className="h-8 w-8 text-black" />
             </button>
           </div>
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isVisible && (
         <div
           ref={domainRef}
