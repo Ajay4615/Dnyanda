@@ -7,6 +7,8 @@ import Footer from "./Components/Footer";
 import Sector from "./Components/Sector";
 import ContactusSection from "./Components/ContactusSection";
 import DonatePage from "./Components/Donate";
+import ServicesSection from "./Components/ServicesSection";
+import CentersPage from "./Components/CentersPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -45,6 +47,7 @@ function App() {
       element: (
         <>
           <Header />
+          <CentersPage />
           <Footer />
         </>
       ),
@@ -54,7 +57,8 @@ function App() {
       element: (
         <>
           <Header />
-          <Hero />
+          <ServicesSection />
+          <Footer />
         </>
       ),
     },
